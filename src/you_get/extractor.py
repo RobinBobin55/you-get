@@ -229,7 +229,7 @@ class VideoExtractor():
 
             if not urls:
                 log.wtf('[Failed] Cannot extract video source.')
-            # For legacy main()
+
             headers = {}
             if self.ua is not None:
                 headers['User-Agent'] = self.ua
